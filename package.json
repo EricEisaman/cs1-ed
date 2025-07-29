@@ -15,7 +15,7 @@
   ],
   "main": "main.js",
   "scripts": {
-    "build": "echo "Performing a null build for now"",
+    "build": "echo \"Performing a null build for now\"",
     "npmrc": "echo \"//registry.npmjs.org/:_authToken=${NPM_TOKEN}\" | tee dist/cs1-game-engine/.npmrc  src/cs1-game-server/.npmrc  dist/cs1-game-socket/.npmrc  dist/cs1-neon-demo/.npmrc",
     "start": "node main"
   },
